@@ -2,7 +2,7 @@ import React from "react";
 import { FieldHookConfig, useField, ErrorMessage } from "formik";
 import iconError from '../images/icon-error.svg'
 
-export const TextInput = (props) => {
+export const TextInput = (props:any) => {
   const [field, meta] = useField(props);
 
   return (
