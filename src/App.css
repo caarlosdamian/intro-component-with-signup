@@ -1,25 +1,53 @@
-:root{
-  --pink:#FF7979;
-  --green:#38CC8B;
-  --purple:#5E54A4;
-  --black:#3D3B48;
-  --break-mobile:375px
+:root {
+  --pink: #FF7979;
+  --green: #38CC8B;
+  --purple: #5E54A4;
+  --black: #3D3B48;
+  --white: #fff;
+  --break-mobile: 375px
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
 }
-.app__container{
+
+.app__container {
   height: 100vh;
   position: relative;
   background: var(--pink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 165px;
+  gap: 45px;
 }
-.img-desktop{
+
+.img-desktop {
   width: 100%;
   height: 100%;
   position: absolute;
+  left: 0;
+}
+
+.left__wrapper {
+  width: 525px;
+}
+
+.left__header {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: -0.520833px;
+  color: var(--white);
+}
+
+.left__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
 }
