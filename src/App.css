@@ -87,6 +87,7 @@
   letter-spacing: 0.267857px;
   color: var(--white);
   margin-bottom: 24px;
+  border: none;
 }
 
 .right__button-span {
