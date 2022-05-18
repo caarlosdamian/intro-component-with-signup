@@ -36,7 +36,7 @@ export const Form = () => {
           <TextInput name="firstName" type="text" placeholder="First Name" />
           <TextInput name="lastName" type="text" placeholder="Last Name" />
           <TextInput name="email" type="email" placeholder="Email" />
-          <TextInput name="firstName" type="text" placeholder="First Name" />
+          <TextInput name="password" type="password" placeholder="Password" />
           <button type="submit" className="form__button">
             CLAIM YOUR FREE TRIAL
           </button>

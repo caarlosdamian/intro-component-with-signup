@@ -1,11 +1,13 @@
 import desktop from "./images/bg-intro-desktop.png";
+import mobile from "./images/bg-intro-mobile.png";
 import "./App.css";
 import { Form } from "./components/Form";
 
 const App = () => {
   return (
-    <div className="app__container">
+    <main className="app__container">
       <img className="img-desktop" src={desktop} alt="desktop" />
+      <img className="img-mobile" src={mobile} alt="mobile" />
       <div className="left__wrapper">
         <h1 className="left__header">Learn to code by watching others</h1>
         <span className="left__subtitle">
@@ -21,7 +23,7 @@ const App = () => {
         </button>
         <Form />
       </div>
-    </div>
+    </main>
   );
 };
 
