@@ -3,10 +3,23 @@
   --green:#38CC8B;
   --purple:#5E54A4;
   --black:#3D3B48;
+  --break-mobile:375px
 }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+.app__container{
+  height: 100vh;
+  position: relative;
+  background: var(--pink);
+}
+.img-desktop{
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
