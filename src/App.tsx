@@ -2,8 +2,7 @@ import desktop from "./images/bg-intro-desktop.png";
 import "./App.css";
 import { Form } from "./components/Form";
 
-const  App =() =>{
-
+const App = () => {
   return (
     <div className="app__container">
       <img className="img-desktop" src={desktop} alt="desktop" />
@@ -16,11 +15,14 @@ const  App =() =>{
         </span>
       </div>
       <div className="right__wrapper">
-        <button className="right__button">Try it free 7 days then $20/mo. thereafter</button>
-        <Form/>
+        <button className="right__button">
+          Try it free 7 days
+          <span className="right__button-span"> then $20/mo. thereafter</span>{" "}
+        </button>
+        <Form />
       </div>
     </div>
   );
-}
+};
 
 export default App;

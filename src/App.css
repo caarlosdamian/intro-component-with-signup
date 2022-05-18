@@ -4,7 +4,8 @@
   --purple: #5E54A4;
   --black: #3D3B48;
   --white: #fff;
-  --break-mobile: 375px
+  --break-mobile: 375px;
+  --box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
 }
 
 * {
@@ -50,4 +51,105 @@
   font-size: 16px;
   line-height: 26px;
   color: var(--white);
+}
+
+.right__wrapper {
+  z-index: 1;
+}
+
+.form__container {
+  background: var(--white);
+  height: 474px;
+  width: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+}
+
+.right__button {
+  background: var(--purple);
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  padding: 17px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.267857px;
+  color: var(--white);
+  margin-bottom: 24px;
+}
+
+.right__button-span {
+  font-weight: 400;
+}
+
+.input__text {
+  padding: 15px 32px;
+  width: 460px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  color: var(--black);
+  outline: none;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+}
+
+.input__text:focus {
+  border: 1px solid var(--purple);
+}
+
+.input__text::placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  color: var(--black);
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.form__button {
+  background: #38CC8B;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+
+.form__button:hover {
+  background: #77E2B3;
+}
+
+.form__span {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 26px;
+  text-align: center;
+  width: 369px;
+  color: #BAB7D4;
+}
+
+.form__span-strong {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--pink);
 }
